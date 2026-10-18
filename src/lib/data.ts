@@ -37,7 +37,7 @@ export const PROFILE: Profile = {
   phoneHref: "+8613137719002",
   location: "Zhengzhou, China",
   resumeSummary:
-    "International Primary EAL educator with more than 10 years of experience supporting multilingual learners across India and China. Experienced in combining evidence-informed classroom practice with teacher development and instructional quality improvement, underpinned by postgraduate practitioner research in dialogic teaching and participation equity.",
+    "International Primary EAL educator with 11+ years of experience supporting multilingual learners across India and China. Experienced in combining evidence-informed classroom practice with teacher development and instructional quality improvement, underpinned by postgraduate practitioner research in dialogic teaching and participation equity.",
   summaryExtraLine:
     "Practitioner research: questioning strategies and participation equity in bilingual primary classrooms.",
   linkedin: "https://www.linkedin.com/in/mdshezkhn",
@@ -258,7 +258,7 @@ export interface Stop {
 }
 
 export const EXPERIENCE: Stop[] = [
-  { years: "2024 — Present", title: "EAL / English Teacher", place: "Aoxin International School · Zhengzhou, China", detail: "Differentiated, curriculum-aligned EAL instruction for multilingual learners in Years 1–6, with formative assessment and evidence-informed questioning.", kind: "work" },
+  { years: "2024 — 2026", title: "EAL / English Teacher", place: "Aoxin International School · Zhengzhou, China", detail: "Differentiated, curriculum-aligned EAL instruction for multilingual learners in Years 1–6, with formative assessment and evidence-informed questioning.", kind: "work" },
   { years: "2025 — 2026", title: "PGCE · Master's level (PGCE7002)", place: "University of Cumbria, UK", detail: "Postgraduate Certificate in Education with practitioner research into questioning strategies and participation equity.", kind: "education" },
   { years: "2022 — 2023", title: "Training & Quality Lead", place: "GEDU Global Education · UK, Dubai, Malta", detail: "Professional development programmes, trainer mentoring and quality assurance frameworks across international campuses.", kind: "work" },
   { years: "2022 — 2024", title: "Bachelor of Education (B.Ed.)", place: "University of Kashmir", detail: "Undergraduate education degree alongside full-time international teaching.", kind: "education" },
@@ -296,7 +296,7 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const QUICK_FACTS: { k: string; v: string }[] = [
   { k: "Location", v: "Zhengzhou, China" },
-  { k: "Current role", v: "EAL / English Teacher — Aoxin International School" },
+  { k: "Recent role", v: "EAL / English Teacher — Aoxin International School (to Jul 2026)" },
   { k: "Education", v: "PGCE, University of Cumbria (2025 – 2026)" },
   { k: "Email", v: PROFILE.email },
 ];
@@ -305,7 +305,7 @@ export const ID_CARD = {
   band: "TEACHER ID",
   idNo: "MSK-2014",             // design device: initials + first teaching year
   dept: "Primary EAL",
-  validTill: "2026",            // PGCE completion year
+  validTill: "2027",            // next milestone: available August 2027
   backTitle: "What I am",
   backLines: [
     "International Primary EAL Educator",
